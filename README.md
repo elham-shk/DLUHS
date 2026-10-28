@@ -2,6 +2,8 @@
 # DLUHS  
 **Explainable Deep Learning–based Uniform Hazard Spectral Acceleration Prediction**
 
+This repository contains the code for the DLUHS model published in Shokrgozar-Yatimdar & Chen (2025), Geophysical Journal International, 243(2), ggaf345, doi:10.1093/gji/ggaf345.” The file names (DLUHS1, DLUHS2, the SHAP code) already match the paper’s models
+
 ## Overview  
 This project introduces a deep learning–based framework (**DLUHS**) for on-site earthquake early warning (EEW).  
 Instead of relying on manually defined parameters or only scalar metrics like PGA/PGV, the model directly uses the first **3–8 seconds of raw seismic waveforms** to predict **Uniform Hazard Spectral Acceleration (UHS)** across 111 periods (0.01–20s).
